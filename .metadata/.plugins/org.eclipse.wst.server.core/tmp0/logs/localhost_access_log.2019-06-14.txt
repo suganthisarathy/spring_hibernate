@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:10:21:52 +0530] "GET /olx_resale/index? HTTP/1.1" 200 10961
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:10:21:54 +0530] "GET /olx_resale/images/bike1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:10:21:54 +0530] "GET /olx_resale/images/swing.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:10:21:54 +0530] "GET /olx_resale/images/car1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:10:21:54 +0530] "GET /olx_resale/images/laptops.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Jun/2019:12:03:12 +0530] "GET /olx_resale/login?email=srinithiilangovan1%40gmail.com&psw=asd HTTP/1.1" 200 3691

@@ -1,0 +1,131 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 1% ;
+}
+
+
+#footer {
+    background: #D7DBDD   !important;
+}
+#footer h5{
+                padding-left: 10px;
+    border-left: 3px solid black;
+    padding-bottom:3px;
+    margin-bottom: 10px;
+    color:black;
+}
+
+#footer ul.social li{
+                padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+                font-size:25px;
+                -webkit-transition: .5s all ease;
+                -moz-transition: .5s all ease;
+                transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+                font-size:30px;
+                margin-top:0px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+                color:grey;
+}
+#footer ul.social li a:hover{
+                color:black;
+}
+#footer ul.quick-links li{
+                padding: 3px 0;
+                -webkit-transition: .5s all ease;
+                -moz-transition: .5s all ease;
+                transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+                padding: 3px 0;
+                margin-left:5px;
+                font-weight:700;
+}
+#footer ul.quick-links li a i{
+                margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+                #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- Footer -->
+                <section id="footer">
+                                <div class="container">
+                                                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                                                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                                                                <h5>Popular Locations</h5>
+                                                                                <ul class="list-unstyled quick-links">
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Chennai</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Mumbai</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Pune</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i> Banglore</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hyderabad</a></li>
+                                                                                </ul>
+                                                                </div>
+                                                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                                                                <h5>AboutUs</h5>
+                                                                                <ul class="list-unstyled quick-links">
+                                                                                               <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>AboutOlxGroup</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Carrers</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>ContactUs</a></li>
+                                                                                                
+                                                                                </ul>
+                                                                </div>
+                                                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                                                                <h5>Olx</h5>
+                                                                                <ul class="list-unstyled quick-links">
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Help</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>SiteMap</a></li>
+                                                                                                <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Legacy&Information</a></li>
+                                                                                                
+                                                                                </ul>
+                                                                </div>
+                                                </div>
+                                                <div class="row">
+                                                                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                                                                                <ul class="list-unstyled list-inline social text-center">
+                                                                                                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                                                                                                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                                                                                               <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                                                                                                <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                                                                                                <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                                                                                </ul>
+                                                                </div>
+                                                                </hr>
+                                                </div>   
+                                                 
+                </section>
+                <!-- ./Footer -->
+</body>
+</html>

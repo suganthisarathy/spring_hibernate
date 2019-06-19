@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.FileSystemXmlApplicationContext"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="com.pack.model.User"/>
+<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
+<fullyQualifiedTypeName name="org.hibernate.validator.internal.xml.ElementType"/>
+<fullyQualifiedTypeName name="com.pack.Phone"/>
+<fullyQualifiedTypeName name="com.pack.HibernateUtil"/>
+</qualifiedTypeNameHistroy>

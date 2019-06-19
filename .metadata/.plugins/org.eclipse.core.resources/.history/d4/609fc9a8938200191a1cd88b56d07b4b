@@ -1,0 +1,32 @@
+package com.pack;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.pack.form.User;
+
+@Controller
+public class SignupController {
+	@RequestMapping(value="/index")
+/*	public String displaySignup(Map<String,Object> map)
+	{ 
+		map.put("user",new User());
+		return "signup";
+	}*/
+	public String sri() {
+		return "homepage";
+	}
+	@RequestMapping(value="/signup")
+	public String display()
+	{
+		return "homepage";
+	}
+	@RequestMapping(value="/sell")
+	public String display1()
+	{
+		return "SellProduct";
+	}
+}
+

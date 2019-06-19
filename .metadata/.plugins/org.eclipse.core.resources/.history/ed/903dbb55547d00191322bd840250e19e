@@ -1,0 +1,23 @@
+package com.pack.dao;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Repository;
+
+import com.pack.form.Customer;
+@Repository
+public class CustomerDaoImpl implements CustomerDao {
+	private static Logger log=Logger.getLogger(CustomerDaoImpl.class);
+	@Override
+	public void addCustomer(Customer c) {
+		// TODO Auto-generated method stub
+		log.info("inside dao's addCustomer");
+
+	}
+
+	@Override
+	public void updateCustomer(Customer c) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

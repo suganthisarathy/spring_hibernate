@@ -1,0 +1,22 @@
+package com.pack;
+
+import java.util.logging.Logger;
+
+import org.apache.log4j.BasicConfigurator;
+
+public class Main {
+    static final Logger logger=Logger.getLogger(Main.class);
+    
+    
+    
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BasicConfigurator.configure();
+        logger.debug("sample debug message");
+        logger.error("sample error message");
+        logger.fatal("sample fatal message");
+        logger.infor("sample info message");
+        logger.warning("simple warn message");
+	}
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=twelvethmaven/C:\/Program Files\/Java\/jre1.8.0_151\/lib\/rt.jar&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1550559220301"/>
+<typeInfo handle="=thirteenthmaven/C:\/Users\/765495\/.m2\/repository\/javax\/validation\/validation-api\/1.1.0.Final\/validation-api-1.1.0.Final.jar&lt;javax.validation(ConstraintValidator.class[ConstraintValidator" modifiers="1537" timestamp="1558433297687"/>
+<typeInfo handle="=thirteenthmaven/C:\/Users\/765495\/.m2\/repository\/org\/hibernate\/hibernate-validator\/5.1.0.Final\/hibernate-validator-5.1.0.Final.jar&lt;org.hibernate.validator.cfg(ConstraintMapping.class[ConstraintMapping" modifiers="1537" timestamp="1558433298690"/>
+<typeInfo handle="=firsthiberante/src\/main\/java&lt;com.pack.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1558526485493"/>
+<typeInfo handle="=firsthiberante/src\/main\/java&lt;com.pack.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1558526405578"/>
+</typeInfoHistroy>

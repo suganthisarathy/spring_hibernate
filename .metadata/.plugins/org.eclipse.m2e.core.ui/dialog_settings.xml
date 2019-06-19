@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="firsthibernate"/>
+			<item value="thirteenthmaven"/>
+			<item value="twelvethmaven"/>
+			<item value="eleventhmaven"/>
+			<item value="tenthmaven"/>
+			<item value="NINTHMAVEN"/>
+			<item value="Eighthmaven"/>
+			<item value="seventhmaven"/>
+		</list>
+		<list key="name">
+			<item value="firsthibernate"/>
+			<item value="thirteenthmaven"/>
+			<item value="twelvethmaven"/>
+			<item value="eleventhmaven"/>
+		</list>
+		<list key="artifactId">
+			<item value="firsthiberante"/>
+			<item value="thirteenthmaven"/>
+			<item value="twelvethmaven"/>
+			<item value="eleventhmaven"/>
+			<item value="tenthmaven"/>
+			<item value="NINTHMAVEN"/>
+			<item value="Eigthmaven"/>
+			<item value="seventhmaven"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\myspring\thirteenthmaven"/>
+			<item value="D:\myspring\twelvethmaven"/>
+			<item value="D:\myspring\eleventhmaven\src\main\webapp\WEB-INF\dispatcher-servlet.xml"/>
+			<item value="D:\myspring\NINTHMAVEN"/>
+			<item value="D:\myspring\Eigthmaven"/>
+			<item value="D:\myspring\seventhmaven\src\main\java\com\pack\Main.java"/>
+			<item value="D:\myspring\sixthmaven\src\main\java\com\pack\Main.java"/>
+			<item value="D:\myspring\firstmaven\src\main\java\com\pack\MainJava.java"/>
+			<item value="D:\myspring\second\src\com\pack\MainClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

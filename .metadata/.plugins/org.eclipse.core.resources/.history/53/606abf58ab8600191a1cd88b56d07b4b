@@ -1,0 +1,210 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Bootstrap Example</title>
+<style>
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+
+
+.carousel-inner img {
+	width: 100%; /* Set width to 100% */
+	margin: auto;
+	min-height: 200px;
+}
+
+.inner-addon {
+	position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	top: 23px;
+	center: 28px;
+	width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+	display: none;
+	position: fixed;
+	center: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 100%;
+	padding: 10px;
+	background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus
+	{
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+	
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: #2980B9;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+}
+/* align icon */
+.left-addon .glyphicon {
+	left: 0px;
+}
+
+.right-addon .glyphicon {
+	right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+	padding-left: 30px;
+}
+
+.right-addon input {
+	padding-right: 30px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media ( max-width : 600px) {
+	.carousel-caption {
+		display: none;
+	}
+}
+
+.log {
+	float: right;
+}
+
+.modal-dialog {
+	width: 20%;
+}
+
+.md1 {
+	width: 50%;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+<jsp:include page="header.jsp"/>
+<!--  <br><h2 style="text-align:center">Your cart is empty</h2><br>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-9">
+  <img src="images/vadinew.jpg" ></div>
+  <div class="col-sm-2"></div></div></div>-->
+  
+  <div class="container text-center">
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="thumbnail" style="width: 375%; height: 250px">
+					<img src="images/car1.jpg"  alt="Image" style="float:left" width="350" >
+					<p>Current Project</p>
+					<form action="/olx_resale/buynow"><button type="submit" class="btn btn-primary">Buy Now</button></form>
+				</div>
+			</div>
+			
+		</div>
+	</div>-->
+	<div class="jumbotron" style="background-color: #D7DBDD ; color: black">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 VL">
+					<p>
+						POPULAR SEARCHES<small><br> Mobile<br> Cars<br>
+							Bikes</small>
+					</p>
+
+				</div>
+				<div class="col-lg-3 VL">
+					<p>
+						TRENDING<small><br> Mobile<br> Cars<br>
+							Bikes</small>
+					</p>
+				</div>
+				<div class="col-lg-3 VL">
+					<p>
+						ABOUT US<small><br> About OLX Group<br> Careers<br>Contact
+							Us</small>
+					</p>
+				</div>
+				<div class="col-lg-3 VL">
+					<p>
+						OLX<small><br> Legal and Privacy information<br>Site
+							Map<br>Help</small>
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

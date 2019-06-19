@@ -1,0 +1,19 @@
+package com.pack.dao;
+
+import com.pack.form.Customer;
+
+public class CustomerDaoImpl implements CustomerDao {
+
+	@Override
+	public void addCustomer(Customer c) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateCustomer(Customer c) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
